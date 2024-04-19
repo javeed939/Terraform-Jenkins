@@ -11,7 +11,7 @@ pipeline {
      tools {
             // Define tools to auto-install and put on the PATH
             // The tool name must be pre-configured in Jenkins under Manage Jenkins → Tools.
-            terraform 'Terraform 1.8.1 linux (arm64)'
+            Terraform 
           
         }
 
