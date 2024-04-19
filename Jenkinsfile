@@ -8,12 +8,7 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
     }
 
-     tools {
-            // Define tools to auto-install and put on the PATH
-            // The tool name must be pre-configured in Jenkins under Manage Jenkins → Tools.
-            Terraform 
-          
-        }
+  
 
    agent  any
     stages {
